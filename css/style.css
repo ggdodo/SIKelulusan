@@ -1,0 +1,151 @@
+/* #F7B733
+#4abdac */
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 0px;
+  font-size: 20px;
+  /* font-weight: 600; */
+  text-align: center;
+  color: whitesmoke;
+}
+
+legend {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: -1px;
+  font-size: 28px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+div.well {
+  background-color: #4abdac;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: 1px black;
+  /* padding: 10% 0% 10% 0%; */
+  padding: 3% 3% 5% 3%;
+}
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: -1px;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.15);
+  color: #f7b733;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  padding: 5% 0% 2% 0%;
+  /* text-shadow: -1px 0 #F7B733, 0 2px #F7B733, 2px 0 #F7B733, 0 -1px #F7B733; */
+}
+
+h4 {
+  color: #4abdac;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: -1px;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  padding: 5% 0% 2% 0%;
+}
+
+ul.nav.navbar-nav {
+  font-size: 16px;
+}
+
+div.date {
+  font-size: 18px;
+  color: ghostwhite;
+}
+
+legend.home {
+  letter-spacing: -2px;
+  font-size: 40px;
+  font-weight: 600;
+  color: ghostwhite;
+  /* padding: 0 7% 0 7%; */
+}
+
+label.col-lg-2.control-label {
+  font-size: 20px;
+  color: ghostwhite;
+}
+input[type="SUBMIT"] {
+  background-color: #f7b733;
+  border: none;
+  color: white;
+  padding: 5px 80px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  letter-spacing: -1px;
+  font-size: 20px;
+  font-weight: 600;
+  color: ghostwhite;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #4abdac;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: whitesmoke;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.animasi {
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+@keyframes example {
+  from {
+    color: #4abdac;
+  }
+  to {
+    color: whitesmoke;
+  }
+}
+
+.animasi2 {
+  animation-name: example2;
+  animation-duration: 0.5s;
+}
+
+@keyframes example2 {
+  from {
+    transform: rotateY(30deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
