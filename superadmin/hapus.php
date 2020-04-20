@@ -6,3 +6,5 @@ if($hapus)
 else
 {echo "<div align='center'> <h3>Data Gagal Terhapus</h3></div>";}
 echo "<meta http-equiv='refresh' content='2; url=index.php?page=data-siswa'>";
+?>
+

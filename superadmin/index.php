@@ -38,9 +38,18 @@ if (empty($_SESSION['namauser']) and empty($_SESSION['kode'])) {
             <li>
               <a href="index.php?page=data-siswa">Data Siswa</a>
             </li>
-            <!-- <li>
+            <li>
+              <a href="index.php?page=import">Import Data</a>
+            </li>
+            <li>
+              <a href="index.php?page=user">User</a>
+            </li>
+            <li>
+              <a href="index.php?page=hubungi">Pesan</a>
+            </li>
+            <li>
               <a href="../cetakskall.php">Cetak Semua SK</a>
-            </li> -->
+            </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li>

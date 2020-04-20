@@ -3,7 +3,7 @@ include('config.php');
 						$nama = $_POST['nama'];
 						$email = $_POST['email'];
 						$pesan = $_POST['pesan'] ;
-mysql_query("insert into tbl_hubungi
+$mysqli->query("insert into tbl_hubungi
 	(nama,email,pesan)
 	values
 	('$nama','$email','$pesan')

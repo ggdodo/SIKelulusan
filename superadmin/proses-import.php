@@ -10,7 +10,7 @@ $hasildata = $data->rowcount($sheet_index=0);
 $sukses = 0;
 $gagal = 0;
 
-for ($i=1; $i<=$hasildata; $i++)
+for ($i=2; $i<=$hasildata; $i++)
 {
   $data1 = $data->val($i,1); 
   $data2 = $data->val($i,2);
@@ -36,8 +36,8 @@ for ($i=1; $i<=$hasildata; $i++)
   $data22 = $data->val($i,22);
   $data23 = $data->val($i,23);
   
-$query = "INSERT INTO tb_student VALUES ('$data1','$data2','$data3','$data4','$data5','$data6','$data7','$data8','$data9','$data10','$data11','$data12','$data13','$data14','$data15','$data16','$data17','$data18','$data19','$data20','$data21','$data22','$data23')";
-$hasil = mysql_query($query);
+$query = "INSERT INTO tb_student VALUES ('','$data2','$data3','$data4','$data5','$data6','$data7','$data8','$data9','$data10','$data11','$data12','$data13','$data14','$data15','$data16','$data17','$data18','$data19','$data20','$data21','$data22','$data23')";
+$hasil = $mysqli->query($query);
 
 if ($hasildata) $sukses++;
 else $gagal++;

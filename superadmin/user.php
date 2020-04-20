@@ -32,7 +32,7 @@
 				<td>Nama Pengguna</td>
 				<td>Username</td>
 				<td>Status</td>
-				<td>Log</td>
+				<td>Terakhir Login</td>
 				<td>Aksi</td>
 			</tr>
 			<?php
